@@ -1,0 +1,22 @@
+{
+  "name": "choose",
+  "repo": "yiwn/choose",
+  "description": "Create and return clone of provided object by including or excluding given properties.",
+  "version": "0.0.1",
+  "keywords": [
+    "yiwn",
+    "choose",
+    "pick",
+    "omit"
+  ],
+  "dependencies": {
+    "component/type": "^1.0.0"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/choose.js"
+  ]
+}

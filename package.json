@@ -1,0 +1,42 @@
+{
+  "name": "yiwn-choose",
+  "description": "Create and return clone of provided object by including or excluding given properties.",
+  "version": "0.0.1",
+  "author": "Mushex Antaranian",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/yiwn/choose.git"
+  },
+  "scripts": {
+    "prepublish": "make build",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "component": "^1.0.0-rc5",
+    "mocha": "^1.20.1",
+    "jshint": "^2.5.1",
+    "jshint-stylish": "^0.2.0",
+    "phantomjs": "^1.9.7-8",
+    "mocha-phantomjs": "^3.4.1",
+    "uglify-js": "^2.4.14"
+  },
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/yiwn/choose/issues"
+  },
+  "homepage": "https://github.com/yiwn/choose",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "choose",
+    "pick",
+    "omit",
+    "yiwn"
+  ],
+  "license": "MIT"
+}
