@@ -1,15 +1,11 @@
-REPORTER ?= spec
+build: test
+	@./node_modules/.bin/component build
 
-test: lint build
-	@./node_modules/.bin/mocha-phantomjs ./test/index.html \
-		--reporter $(REPORTER)
+test: lint
+	@./node_modules/.bin/mocha
 
 lint: ./lib/*.js
-	@./node_modules/.bin/jshint $^ \
-		--reporter ./node_modules/jshint-stylish/stylish.js
-
-build:
-	@./node_modules/.bin/component build
+	@./node_modules/.bin/jshint $^
 
 clean:
 	rm -fr build components node_modules

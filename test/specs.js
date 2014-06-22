@@ -1,6 +1,6 @@
-var expect = chai.expect;
+var expect = require('chai').expect;
 
-var choose = require('choose');
+var choose = require('../index.js');
 
 describe('Choose', function(){
     var a = {
